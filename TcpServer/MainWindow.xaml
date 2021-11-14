@@ -1,0 +1,30 @@
+﻿<Window x:Class="TcpServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TcpServer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Button Height="25"
+                    Width="100"
+                    DockPanel.Dock="Top"
+                    Content="Start Listening" 
+                    Click="Start_Listening_Button_Click"/>
+        </DockPanel>
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <ListView
+                Name="ClientsList"/>
+        </StackPanel>
+    </Grid>
+</Window>

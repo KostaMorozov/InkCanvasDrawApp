@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{AB8D9EF0-DBC8-42F1-97D8-D1AEDFCAE0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "TcpClient\TcpClient.csproj", "{E40934D1-5829-46E6-BF37-368633DC1288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketAsync", "SocketAsync\SocketAsync.csproj", "{675E0141-8ECB-400A-80F0-AB274C0464BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8D9EF0-DBC8-42F1-97D8-D1AEDFCAE0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8D9EF0-DBC8-42F1-97D8-D1AEDFCAE0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8D9EF0-DBC8-42F1-97D8-D1AEDFCAE0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8D9EF0-DBC8-42F1-97D8-D1AEDFCAE0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40934D1-5829-46E6-BF37-368633DC1288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40934D1-5829-46E6-BF37-368633DC1288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40934D1-5829-46E6-BF37-368633DC1288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40934D1-5829-46E6-BF37-368633DC1288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675E0141-8ECB-400A-80F0-AB274C0464BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675E0141-8ECB-400A-80F0-AB274C0464BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675E0141-8ECB-400A-80F0-AB274C0464BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675E0141-8ECB-400A-80F0-AB274C0464BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A0C8E0C-3904-4D78-8293-D1D9D283160C}
+	EndGlobalSection
+EndGlobal
